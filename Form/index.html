@@ -12,21 +12,21 @@
 			<div class="identifier">
 				<h2>Приветствую вас!</h2>
 				<h4>Заполните форму для подачи заявления.</h4>
-				<span>Как вас зовут ?</span> <input type="text" required placeholder="Напишите имя"><br>
-				<span>Ваш телефон ?</span> <input type="tel" required placeholder="Напишите телефон"><br>
-				<span>Ваш Email ?</span> <input type="email" required placeholder="Напишите email"><br>
-				<span>Придумайте пароль</span> <input type="password" required placeholder="Придумайте пароль"><br>
+				<span>Как вас зовут ?</span> <input type="text" placeholder="Напишите имя" required><br>
+				<span>Ваш телефон ?</span> <input type="tel" placeholder="Напишите телефон" required><br>
+				<span>Ваш Email ?</span> <input type="email" placeholder="Напишите email" required><br>
+				<span>Придумайте пароль</span> <input type="password" placeholder="Придумайте пароль" required><br>
 			</div>
 			<div class="comments">
 				<h4>Что вы используете для оплаты покупок ?</h4>
 				<label for="cash">Наличные</label>
-				<input type="radio" name="iss" checked id="cash">
+				<input type="radio" name="iss" id="cash" checked>
 				<label for="card">Карта</label>
 				<input type="radio" name="iss" id="card"><br>
 				<h4>Напишите положительный отзыв в поле номер 1 и отрицательный в поле номер 2</h4>
 				<ol>
-					<li><textarea name="comments-good" cols="30" rows="7" required placeholder="Ваше мнение"></textarea></li>
-					<li><textarea name="comments-bad" cols="30" rows="7" disabled placeholder="Ваше мнение"></textarea></li>
+					<li><textarea name="comments-good" cols="30" rows="7" placeholder="Ваше мнение" required></textarea></li>
+					<li><textarea name="comments-bad" cols="30" rows="7" placeholder="Ваше мнение" disabled></textarea></li>
 				</ol>
 			</div>
 			<div class="buttons">
